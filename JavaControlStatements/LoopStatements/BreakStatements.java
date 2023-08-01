@@ -8,6 +8,7 @@ public class BreakStatements{
         int age = sc.nextInt();
         while(age >= 18){
             System.out.println("You are eligible to get driving license.");
+            age++;
             break;
         }
     }
