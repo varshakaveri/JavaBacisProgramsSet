@@ -7,7 +7,7 @@ public class JavaArmstrongNumberProgram{
 
     static boolean isArmstrong(int n){
         int temp, digits=0, last=0, sum=0;
-        temp=n;
+        temp =n;
 
         while(temp>0){
             temp= temp/10;
